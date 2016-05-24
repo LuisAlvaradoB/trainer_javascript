@@ -36,82 +36,82 @@ var opcionMaquina = aleatorio(0,4);
      alert("Empate!");
    }
    else if (opcionMaquina == papel) {
-     alert("Perdiste!");
+     alert("Perdiste, papel envuelve a piedra!");
    }
    else if (opcionMaquina == tijera) {
-     alert("Ganaste!");
+     alert("Ganaste, piedra aplasta a tijeras!");
    }
    else if (opcionMaquina == lagarto) {
-     alert("Ganaste!");
+     alert("Ganaste, piedra aplasta a lagarto!");
    }
    else if (opcionMaquina == spock) {
-     alert("Perdiste!");
+     alert("Perdiste, Spock vaporiza a piedra!");
    }
 
  }
  else if (opcionUsuario == papel) {
    if (opcionMaquina == piedra) {
-     alert("Ganaste!");
+     alert("Ganaste, papel envuelve a piedra!");
    }
    else if (opcionMaquina == papel) {
      alert("Empate!");
    }
    else if (opcionMaquina == tijera) {
-     alert("Perdiste!");
+     alert("Perdiste, tijera corta a papel!");
    }
    else if (opcionMaquina == lagarto) {
-     alert("Perdiste!");
+     alert("Perdiste, lagarto devora a papel!");
    }
    else if (opcionMaquina == spock) {
-     alert("Ganaste!");
+     alert("Perdiste, papel desautoriza a Spock!");
    }
  }
  else if (opcionUsuario == tijera) {
    if (opcionMaquina == piedra) {
-     alert("Perdiste!");
+     alert("Perdiste, piedra aplasta a tijera!");
    }
    else if (opcionMaquina == papel) {
-     alert("Ganaste!");
+     alert("Ganaste, tijera corta a papel!");
    }
    else if (opcionMaquina == tijera) {
      alert("Empate!");
    }
    else if (opcionMaquina == lagarto) {
-     alert("Ganaste!");
+     alert("Ganaste, tijera decapita a lagarto!");
    }
    else if (opcionMaquina == spock) {
-     alert("Perdiste!");
+     alert("Perdiste, Spock rompe tijera!");
    }
  }
  else if (opcionUsuario == lagarto) {
    if (opcionMaquina == piedra) {
-     alert("Perdiste!");
+     alert("Perdiste, piedra aplasta a lagarto!");
    }
    else if (opcionMaquina == papel) {
-     alert("Ganaste!");
+     alert("Ganaste, lagarto se come el papel!");
    }
    else if (opcionMaquina == tijera) {
-     alert("Perdiste!");
+     alert("Perdiste, tijera decapita a lagarto!");
    }
    else if (opcionMaquina == lagarto) {
      alert("Empate!");
    }
    else if (opcionMaquina == spock) {
-     alert("Ganaste!");
+     alert("Ganaste, lagarto envenena a Spock!");
    }
  }
  else if (opcionUsuario == spock) {
    if (opcionMaquina == piedra) {
-     alert("Ganaste!");
+     alert("Ganaste, Spock vaporiza a piedra!");
    }
    else if (opcionMaquina == papel) {
-     alert("Perdiste!");
+     alert("Perdiste, papel desautoriza a Spock!");
    }
    else if (opcionMaquina == tijera) {
-     alert("Ganaste!");
+     alert("Ganaste, Spock rompe a tijera!");
    }
    else if (opcionMaquina == lagarto) {
-     alert("Perdiste!");
+     alert("Perdiste, lagarto envenena a Spock!");
    }
    else if (opcionMaquina == spock) {
      alert("Empate!");
