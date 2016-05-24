@@ -16,7 +16,7 @@ function ganaste(){
 var campo = [ [ 1 , 0 , 0 ],
               [ 0 , 1 , 0 ],
               [ 1 , 1 , 1 ] ];
-var texto = ["Ganaste!", "Explotaste!"];
+var texto = ["Cesped!", "Bomba!"];
 var x , y;
   alert("Estas en un campo minado \n"+
         "Elige una posición entre el 0 y el 2 para X y para Y ");
@@ -25,4 +25,6 @@ x = prompt("Posición en X?  (entre 0 y 2)");
 y = prompt("Posición en Y?  (entre 0 y 2)");
 
 var posicion = campo[x][y];
-document.write(texto[posicion]);
+if (posicion != undefined) {
+  alert("Posición Correcta")
+}
