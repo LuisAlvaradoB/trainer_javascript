@@ -24,7 +24,19 @@ var x , y;
 x = prompt("Posición en X?  (entre 0 y 2)");
 y = prompt("Posición en Y?  (entre 0 y 2)");
 
-var posicion = campo[x][y];
-if (posicion != undefined) {
-  alert("Posición Correcta")
+
+
+if (x <= 2 && y <= 2) {
+  var posicion = campo[x][y];
+  document.write("Elegiste " + texto[posicion] + "<br />");
+  if (posicion == 1) {
+    explosion();
+  }
+  else {
+    ganaste();
+  }
+}
+else {
+  document.write("¡Te saliste del campo!");
+  explosion();
 }
