@@ -10,9 +10,19 @@ pi = Math.floor(pi);
 document.write(pi);
 */
 
-var Pokemon{
-  nombre:"Pikachu",
-  tipo:"Eléctrico",
-  vida:100,
-  ataque:55
+
+function Pokemon(nombrePokemon,vidaPoke,ataPoke)
+{
+  var estructuraPokemon
+  {
+    nombre:nombrePokemon,
+    vida: vidaPoke,
+    ataque: ataPoke
+  };
+  return estructuraPokemon;
 };
+
+var pikachu=pokemon("Pikachu",100,55);
+var bulbasaur=pokemon("Bulbasaur",90,50);
+
+console.log(bulbasaur);
